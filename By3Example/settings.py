@@ -26,6 +26,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'taggit',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
@@ -69,7 +72,7 @@ DATABASES = {
         'USER': 'skarnata',
         'PASSWORD': 'Ryan99sk',
         'HOST': 'localhost',
-        'PORT': '5434',
+        'PORT': '5432',
     }
 }
 
